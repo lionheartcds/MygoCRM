@@ -1,0 +1,1322 @@
+/*largest pro*/
+@media screen and (min-width:1367px) and (max-width:1600px){
+    .basic-info-input {
+        width:calc(100% - 35%);
+    }
+    .basic-info-input-title{
+        max-width:25%;
+    }
+    .basic-info-input.adress-write {
+        width:calc(100% - 35%);
+    }
+    .basic-info-input.adress{
+        width:15.9%;
+    }
+    .basic-info-input.date{
+        width:25%;
+    }
+    
+}
+/*largest pro*/
+
+
+
+
+/*ipad pro*/
+@media screen and (min-width:1024px) and (max-width:1366px){
+    .header-block>.logo{
+        margin-left:100px;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        position: absolute;
+        display:none;
+        margin-top:-5000px;
+        top:115px;
+    }
+    .left-menu-block.active{
+        position:fixed;
+        display:block;
+        margin-top:0px;
+        max-width:100%;
+        z-index:1;
+    }
+    .left-menu-bg{
+        width:100%;
+        box-shadow:
+        none;height:
+        calc(100vh - 115px);
+    }
+
+    .crm-main-block{
+        max-width:100%;
+        margin-top:7px;
+    }
+    .crm-main-bg{
+        width:calc(100% - 40px);
+        padding:38px 20px;
+        min-height:auto;
+    }
+
+    .basic-info-page-btn-block>.btn{
+        padding:8px 47.1px;
+        margin:0 10px 0px 10px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:40px;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+
+    .basic-info-input {
+        width:calc(100% - 35%);
+    }
+    .basic-info-input-title{
+        max-width:25%;
+    }
+    .basic-info-input.adress-write {
+        width:calc(100% - 35%);
+    }
+    .basic-info-input.adress{
+        width:15.9%;
+    }
+    .basic-info-input.date{
+        width:25%;
+    }
+    
+}
+/*ipad pro*/
+
+/*ipad*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    .function-crm-title{
+        float:right;
+        margin-right:0px;
+    }
+    .function-member-drop{
+        display:none;
+    }
+    .header-block>.logo{
+        margin-left:0px;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        position: absolute;
+        display:none;
+        margin-top:-5000px;
+        top:115px;
+    }
+    .left-menu-block.active{
+        position:fixed;
+        display:block;
+        margin-top:0px;
+        max-width:100%;
+        z-index:1;
+    }
+    .left-menu-bg{
+        width:100%;
+        box-shadow:none;
+        height:calc(100vh - 115px);
+    }
+    .right-menu-block{
+        display:none;
+    }
+    .crm-main-block{
+        max-width:100%;
+        margin-top:120px;
+    }
+    .crm-main-bg{
+        width:calc(100% - 40px);
+        padding:38px 20px;
+    }
+    .page-locattion-block{
+        margin:0 0.5% 20px 0.5%;
+    }
+
+    .page-locattion-block{
+        font-size:15px;
+    }
+
+    .basic-info-input-block{
+        width:100%;
+    }
+
+    .basic-info-input {
+        width:calc(100% - 20px);
+    }
+    .basic-info-input-title{
+        max-width:100%;
+        width:100%;
+    }
+    .basic-info-input.adress-write {
+        width:calc(100% - 32px);
+        margin-left:0px;
+    }
+    .basic-info-input.adress-write:nth-last-child(1){
+        margin-left:0px;
+    }
+    .basic-info-input.adress{
+        width:calc(25% - 10px);
+    }
+    .basic-info-input.date{
+        width:25%;
+    }
+    .another-tips{
+        margin-left:0px;
+    }
+    
+    .main-title-block>.title{
+        font-size:20px;
+    }
+
+    .basic-info-page-btn-block>.btn{
+        padding:8px 41.4px;
+    }
+    .basic-info-tips{
+        font-size:17px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:40px;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+    .basic-info-input.select{
+        width:100%;
+    }
+    
+}
+/*ipad*/
+
+/*大手機裝置*/
+@media screen and (min-width:540px) and (max-width:767px){
+    .function-crm-title{
+        float:right;
+        margin-right:0px;
+    }
+    .function-member-drop{
+        display:none;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        position: absolute;
+        display:none;
+        margin-top:-5000px;
+        top:115px;
+    }
+    .left-menu-block.active{
+        position:fixed;
+        display:block;
+        margin-top:0px;
+        max-width:100%;
+        z-index:1;
+    }
+    .left-menu-bg{
+        width:100%;
+        box-shadow:none;
+        height:calc(100vh - 115px);
+    }
+    .header-block>.logo{
+        margin:9.5px 0 9.5px 0;
+    }
+    .function-crm-title{
+        width:auto;
+        min-width:125px;
+        font-size:20px;
+    }
+    .function-member-drop{
+        width:auto;
+        min-width:82px;
+    }
+    .function-member-drop>.name{
+        font-size:20px;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        display:none;
+    }
+    .crm-main-block{
+        max-width:100%;
+        margin-top:110px;
+    }
+    .crm-main-bg{
+        width:calc(100% - 40px);
+        padding:38px 20px;
+    }
+    .right-menu-block{
+        display:none;
+    }
+    .page-locattion-block{
+        font-size:16px;
+    }
+    .page-locattion-block>a{
+        line-height:20px;
+    }
+    .main-title-block>.title{
+        width:100%;
+        font-size:20px;
+    }
+    .main-title-block>.btn{
+        font-size:17px;
+        float: right;
+    }
+    
+
+    .basic-info-input-block{
+        width:100%;
+    }
+    .basic-info-input-block.margin{
+        margin-right:0px;
+    }
+    .basic-info-input{
+        height:45px;
+        font-size:17px;
+    }
+    .basic-info-input.cost{
+        width:calc(100% - 92px);
+    }
+    .basic-info-input-sub{
+        font-size:17px;
+        line-height:45px;
+    }
+    .basic-info-tips{
+        font-size:17px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        padding:8px 36px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input.full{
+        height:250px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:auto;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:40px;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+    .basic-info-input-text-function-main:nth-last-child(5){
+        border-radius:0 5px 0 0;
+    }
+    .basic-info-input.full-function{
+        height:300px;
+    }
+    .basic-info-input-send-btn{
+        font-size:17px;
+        padding:5px 50px;
+    }
+    .basic-info-input-send-btn-block{
+        width:312px;
+    }
+
+    .basic-info-input-block{
+        width:100%;
+    }
+
+    .basic-info-input {
+        width:calc(100% - 20px);
+    }
+    .basic-info-input-title{
+        max-width:100%;
+        width:100%;
+    }
+    .basic-info-input.adress-write {
+        width:calc(100% - 32px);
+        margin-left:0px;
+    }
+    .basic-info-input.adress-write:nth-last-child(1){
+        margin-left:0px;
+    }
+    .basic-info-input.adress{
+        width:calc(25% - 10px);
+    }
+    .basic-info-input.date{
+        width:25%;
+    }
+    .another-tips{
+        margin-left:0px;
+    }
+    
+    .main-title-block>.title{
+        font-size:20px;
+    }
+
+    .basic-info-page-btn-block>.btn{
+        padding:8px 41.4px;
+    }
+    .basic-info-tips{
+        font-size:17px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:40px;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+
+    .basic-info-input.select{
+        width:100%;
+    }
+}
+/*大手機裝置*/
+
+/*iphone plus*/
+@media screen and (min-width:414px) and (max-width:539px){
+    .function-crm-title{
+        float:right;
+        margin-right:0px;
+    }
+    .function-member-drop{
+        display:none;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        position: absolute;
+        display:none;
+        margin-top:-5000px;
+        top:183px;
+    }
+    .left-menu-block.active{
+        position:fixed;
+        display:block;
+        margin-top:0px;
+        max-width:100%;
+        z-index:1;
+    }
+    .left-menu-bg{
+        width:100%;
+        box-shadow:none;
+        height:calc(100vh - 155px);
+    }
+    .header-bg{
+        height:auto;
+    }
+    .header-block{
+        width:100%;
+        max-width:100%;
+        padding:0 0;
+    }
+    .header-block>.logo{
+        width:150px;
+        height:auto;
+        margin:9.5px auto 9.5px auto;
+        display:block;
+        float:none;
+    }
+    .function-block{
+        width:100%;
+        float: left;
+    }
+    .function-crm-title{
+        width:auto;
+        min-width:125px;
+        height:auto;
+        font-size:17px;
+        padding:7px 30px;
+        line-height:35px;
+    }
+    .function-crm-title>img {
+        margin-top:7px;
+    }
+    .function-member-drop{
+        width:auto;
+        min-width:82px;margin-right:15px;
+    }
+    .function-member-drop>.name{
+        font-size:17px;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        display:none;
+    }
+    .crm-main-block{
+        max-width:100%;
+        margin-top:90px;}
+    .crm-main-bg{
+        width:calc(100% - 20px);
+        padding:38px 10px;
+    }
+    .page-locattion-block{
+        font-size:16px;
+    }
+    .page-locattion-block>a{
+        line-height:22px;
+    }
+    .main-title-block>.title{
+        width:100%;
+        font-size:20px;
+    }
+    .main-title-block>.btn{
+        font-size:17px;
+        float: right;
+    }
+    
+
+    .basic-info-input-block{
+        width:100%;
+    }
+
+    .basic-info-input {
+        width:calc(100% - 20px);
+    }
+    .basic-info-input-title{
+        max-width:100%;
+        width:100%;
+    }
+    .basic-info-input.adress-write {
+        width:calc(100% - 32px);
+        margin-left:0px;
+    }
+    .basic-info-input.adress-write:nth-last-child(1){
+        margin-left:0px;
+    }
+    .basic-info-input.adress{
+        width:calc(50% - 10px);
+        margin-bottom:10px;
+    }
+    .basic-info-input.date{
+        width:38.5%;
+    }
+    .basic-info-input.age-range{
+        width:50%;
+    }
+    .another-tips{
+        margin-left:0px;
+    }
+    
+    .main-title-block>.title{
+        font-size:20px;
+    }
+
+    .basic-info-page-btn-block>.btn{
+        padding:8px 41.4px;
+    }
+    .basic-info-tips{
+        font-size:17px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:40px;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+
+    .basic-info-input.select{
+        width:100%;
+    }
+    .basic-info-input{
+        height:45px;
+        font-size:17px;
+    }
+    .basic-info-input.cost{
+        width:calc(100% - 92px);
+    }
+    .basic-info-input-sub{
+        font-size:17px;
+        line-height:45px;
+    }
+    .basic-info-tips{
+        font-size:16px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        padding:6px 17.1px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input.full{
+        height:250px;
+    }
+    .basic-info-input-switch-word{
+        font-size:17px;
+        line-height:50px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:auto;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:37.2px;
+        height:37.2px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+    .basic-info-input-text-function-main:nth-last-child(3){
+        border-radius:0 5px 0 0;
+    }
+    .basic-info-input.full-function{
+        height:300px;
+    }
+    .basic-info-input-send-btn{
+        font-size:17px;
+        padding:5px 50px;
+    }
+    .basic-info-input-send-btn-block{
+        width:312px;
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 120px;
+        height: 45px;
+        float: left;
+    }
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height:35px;
+        width:35px;
+        left: 5px;
+        bottom: 5px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    input:checked + .slider {
+        background-color: #ff8a00;
+    }
+    input:focus + .slider {
+        box-shadow: 0 0 1px #ff8a00;
+    }
+    input:checked + .slider:before {
+        -webkit-transform: translateX(75px);
+        -ms-transform: translateX(75px);
+        transform: translateX(75px);}
+}
+/*iphone plus*/
+
+/*iphone*/
+@media screen and (min-width:375px) and (max-width:413px){
+    .function-crm-title{
+        float:right;
+        margin-right:0px;
+    }
+    .function-member-drop{
+        display:none;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        position: absolute;
+        display:none;
+        margin-top:-5000px;
+        top:183px;
+    }
+    .left-menu-block.active{
+        position:fixed;
+        display:block;
+        margin-top:0px;
+        max-width:100%;
+        z-index:1;
+    }
+    .left-menu-bg{
+        width:100%;
+        box-shadow:none;
+        height:calc(100vh - 155px);
+    }
+    .header-bg{
+        height:auto;
+    }
+    .header-block{
+        width:100%;
+        max-width:100%;
+        padding:0 0;
+    }
+    .header-block>.logo{
+        width:150px;
+        height:auto;
+        margin:9.5px auto 9.5px auto;
+        display:block;
+        float:none;
+    }
+    .function-block{
+        width:100%;
+        float: left;
+    }
+    .function-crm-title{
+        width:auto;
+        min-width:125px;
+        height:auto;
+        font-size:17px;
+        padding:7px 30px;
+        line-height:35px;
+    }
+    .function-crm-title>img {
+        margin-top:7px;
+    }
+    .function-member-drop{
+        width:auto;
+        min-width:82px;
+        margin:11.5px 15px 11.5px 0px;
+    }
+    .function-member-drop>.name{
+        font-size:17px;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        display:none
+    }
+    .crm-main-block{
+        max-width:100%;
+        margin-top:75px;
+    }
+    .crm-main-bg{
+        width:calc(100% - 20px);
+        padding:38px 10px;
+    }
+    .page-locattion-block{
+        font-size:16px;
+    }
+    .page-locattion-block>a{
+        line-height:22px;
+    }
+    .main-title-block>.title{
+        width:100%;
+        font-size:20px;
+    }
+    .main-title-block>.btn{
+        font-size:17px;
+        float: right;
+    }
+    
+
+    .basic-info-input-block{
+        width:100%;
+    }
+
+    .basic-info-input {
+        width:calc(100% - 20px);
+    }
+    .basic-info-input-title{
+        max-width:100%;
+        width:100%;
+    }
+    .basic-info-input.adress-write {
+        width:calc(100% - 32px);
+        margin-left:0px;
+    }
+    .basic-info-input.adress-write:nth-last-child(1){
+        margin-left:0px;
+    }
+    .basic-info-input.adress{
+        width:calc(50% - 10px);
+        margin-bottom:10px;
+    }
+    .basic-info-input.date{
+        width:37%;
+    }
+    .basic-info-input.age-range{
+        width:50%;
+    }
+    .another-tips{
+        margin-left:0px;
+    }
+    
+    .main-title-block>.title{
+        font-size:20px;
+    }
+
+    .basic-info-page-btn-block>.btn{
+        padding:8px 41.4px;
+    }
+    .basic-info-tips{
+        font-size:17px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:40px;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+
+    .basic-info-input.select{
+        width:100%;
+    }
+    .page-locattion-block{
+        font-size:16px;
+    }
+    .page-locattion-block>a{
+        line-height:22px;
+    }
+
+    .main-title-block>.title{
+        width:100%;
+        font-size:20px;
+    }
+    .main-title-block>.btn{
+        font-size:17px;
+        float: right;
+    }
+
+    .basic-info-input-block{
+        width:100%;
+    }
+    .basic-info-input-block.margin{
+        margin-right:0px;
+    }
+    .basic-info-input{
+        height:45px;
+        font-size:17px;
+    }
+    .basic-info-input.cost{
+        width:calc(100% - 92px);
+    }
+    .basic-info-input-sub{
+        font-size:17px;
+        line-height:45px;
+    }
+    .basic-info-tips{
+        font-size:16px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        padding:5px 46.8px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input.full{
+        height:250px;
+    }
+    .basic-info-input-switch-word{
+        font-size:17px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:auto;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:40.8px;
+        height:40.8px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+    .basic-info-input-text-function-main:nth-last-child(4){
+        border-radius:0 5px 0 0;
+    }
+    .basic-info-input.full-function{
+        height:300px;
+    }
+    .basic-info-input-send-btn{
+        font-size:17px;
+        padding:3px 40px;
+        margin:10px 10px;
+    }
+    .basic-info-input-send-btn-block{
+        width:272px;
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 120px;
+        height: 45px;float: left;
+    }
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";height:35px;
+        width:35px;
+        left: 5px;
+        bottom: 5px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    input:checked + .slider {
+        background-color: #ff8a00;
+    }
+    input:focus + .slider {
+        box-shadow: 0 0 1px #ff8a00;
+    }
+    input:checked + .slider:before {
+        -webkit-transform: translateX(75px);
+        -ms-transform: translateX(75px);
+        transform: translateX(75px);
+    }
+}
+/*iphone*/
+
+/*iphone small*/
+@media screen and (max-width:374px){
+    .function-crm-title{
+        float:right;
+        margin-right:0px;
+    }
+    .function-member-drop{
+        display:none;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        position: absolute;
+        display:none;
+        margin-top:-5000px;
+        top:183px;
+    }
+    .left-menu-block.active{
+        position:fixed;
+        display:block;
+        margin-top:0px;
+        max-width:100%;
+        z-index:1;
+    }
+    .left-menu-bg{
+        width:100%;
+        box-shadow:none;
+        height:calc(100vh - 155px);
+    }
+    .header-bg{
+        height:auto;
+    }
+    .header-block{
+        width:100%;
+        max-width:100%;
+        padding:0 0;
+    }
+    .header-block>.logo{
+        width:150px;
+        height:auto;
+        margin:9.5px auto 9.5px auto;
+        display:block;
+        float:none;
+    }
+    .function-block{
+        width:100%;
+        float: left;
+    }
+    .function-crm-title{
+        width:auto;
+        height:auto;
+        font-size:20px;
+        padding:7px 30px;
+        line-height:35px;
+    }
+    .function-crm-title>img {
+        margin-top:6px;
+    }
+    .function-member-drop{
+        width:auto;min-width:82px;
+        margin:15px 15px 0 0px;
+    }
+    .function-member-drop>.name{
+        font-size:17px;
+    }
+    .ham-burger-menu-block{
+        display:block;
+    }
+    .left-menu-block{
+        display:none;
+    }
+    .crm-main-block{
+        max-width:100%;
+        margin-top:160px;
+    }
+    .crm-main-bg{
+        width:calc(100% - 20px);
+        padding:38px 10px;
+    }
+    .page-locattion-block{
+        font-size:16px;
+    }
+    .page-locattion-block>a{
+        line-height:22px;
+    }
+    .main-title-block>.title{
+        width:100%;
+        font-size:20px;
+    }
+    .main-title-block>.btn{
+        font-size:17px;
+        float: right;
+    }
+    
+
+    .basic-info-input-block{
+        width:100%;
+    }
+
+    .basic-info-input {
+        width:calc(100% - 20px);
+    }
+    .basic-info-input-title{
+        max-width:100%;
+        width:100%;
+    }
+    .basic-info-input.adress-write {
+        width:calc(100% - 32px);
+        margin-left:0px;
+    }
+    .basic-info-input.adress-write:nth-last-child(1){
+        margin-left:0px;
+    }
+    .basic-info-input.adress{
+        width:calc(50% - 10px);
+        margin-bottom:10px;
+    }
+    .basic-info-input.date{
+        width:37%;
+    }
+    .basic-info-input.age-range{
+        width:50%;
+    }
+    .another-tips{
+        margin-left:0px;
+    }
+    
+    .main-title-block>.title{
+        font-size:20px;
+    }
+
+    .basic-info-page-btn-block>.btn{
+        padding:8px 41.4px;
+    }
+    .basic-info-tips{
+        font-size:17px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:40px;
+        height:40px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+
+    .basic-info-input.select{
+        width:100%;
+    }
+    .page-locattion-block{
+        font-size:16px;
+        margin:0 0.5% 20px 0.5%;
+        max-width:100%;
+    }
+    .page-locattion-block>a{
+        width:auto;
+        text-align: center;
+        line-height:22px;
+        margin-bottom:10px;
+    }
+
+    .main-title-block{
+        margin:0 0.5% 10px 0.5%;
+    }
+    .main-title-block>.title{
+        width:100%;
+        font-size:20px;
+    }
+    .main-title-block>.btn{
+        font-size:17px;
+        float:left;
+        margin-bottom:10px;
+    }
+    
+    .basic-info-block{
+        max-width:95%;
+        ;}
+
+    .basic-info-input.date{
+        width:calc(100% - 32px);
+    }
+    .basic-info-input.date:nth-last-child(1){
+        margin-left: 0px;
+        margin-top:20px;
+    }
+
+    .basic-info-input-block{
+        width:100%;
+    }
+    .basic-info-input-block.margin{
+        margin-right:0px;
+    }
+    .basic-info-input{
+        height:45px;
+        font-size:17px;
+    }
+    .basic-info-input.cost{
+        width:calc(100% - 92px);
+    }
+    .basic-info-input-sub{
+        font-size:17px;
+        line-height:55px;
+    }
+    .basic-info-tips{
+        font-size:16px;
+    }
+    .basic-info-page-btn-block>.btn{
+        font-size:17px;
+        width:auto;
+        text-align:center;
+        padding:5px 31px;margin-bottom:15px;
+        margin:0 10px 15px 10px;
+    }
+    .basic-info-input-title{
+        font-size:17px;
+    }
+    .basic-info-input.full{
+        height:250px;
+    }
+    .basic-info-input-switch-word{
+        font-size:17px;
+    }
+    .basic-info-input-text-function-block{
+        width:100%;
+        height:auto;
+        float: left;
+        background-color:#a5a3a3;
+        border-radius:5px 5px 0 0;
+    }
+    .basic-info-input-text-function-main{
+        width:50.6px;
+        height:50.6px;
+        float: left;
+        background-color:#a5a3a3;
+        transition:all 0.2s;
+        cursor: pointer;
+    }
+    .basic-info-input-text-function-main:nth-last-child(7){
+        border-radius:0 5px 0 0;
+    }
+    .basic-info-input.full-function{
+        height:300px;
+    }
+    .basic-info-input-send-btn{
+        font-size:17px;
+        padding:3px 40px;
+        margin:10px 10px;
+    }
+    .basic-info-input-send-btn-block{
+        width:272px}
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 120px;
+        height: 45px;
+        float: left;
+    }
+    .switch input { 
+        opacity: 0;
+        width: 0;height: 0;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;}
+    .slider:before {
+        position: absolute;
+        content: "";
+        height:35px;
+        width:35px;
+        left: 5px;
+        bottom: 5px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
+    input:checked + .slider {
+        background-color: #ff8a00;
+    }
+    input:focus + .slider {
+        box-shadow: 0 0 1px #ff8a00;
+    }
+    input:checked + .slider:before {
+        -webkit-transform: translateX(75px);
+        -ms-transform: translateX(75px);
+        transform: translateX(75px);
+    }
+}
+/*iphone*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
