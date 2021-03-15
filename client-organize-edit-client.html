@@ -11,20 +11,34 @@
 <!--手機漢堡條 開始-->
 <script>
     $(document).ready(function () {
-        $(".ham-burger-menu").click(function () {
-            $(".left-menu-block").addClass('active');
-            $(".ham-burger-menu-close").show();
-            $(this).hide();
-        });
-
-        $(".ham-burger-menu-close").click(function () {
-            $(".left-menu-block").removeClass('active');
-            $(".ham-burger-menu").show();
-            $(this).hide();
+        $("#mobile-menu").click(function () {
+            $(".left-menu-block").slideToggle();
         });
     });
 </script>
 <!--手機漢堡條 結束-->
+
+<!--PC漢堡條 開始-->
+<script>
+    $(document).ready(function () {
+        $("#pc-menu").click(function () {
+            $(".left-menu-block").animate({marginLeft:-250});
+            $("#pc-menu-block").hide();
+            $("#pc-menu-active-block").show();
+            $(".crm-main-block").addClass('active');
+            $("#pc-menu-active").addClass('active');
+        });
+
+        $("#pc-menu-active").click(function () {
+            $(".left-menu-block").animate({marginLeft:0});
+            $("#pc-menu-active-block").hide();
+            $("#pc-menu-block").show();
+            $(".crm-main-block").removeClass('active');
+            $("#pc-menu-active").removeClass('active');
+        });
+    });
+</script>
+<!--PC漢堡條 結束-->
 
 
 <body>
@@ -133,15 +147,23 @@
             </div>
             <!--側邊欄 結束-->
 
-            <!--rightMenu開始-->
-            <div class="right-menu-block">
-                <a href="javascript:void(0)" class="ham-burger-menu right-menu">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </a>
-            </div>
-            <!--rightMenu結束-->
+           <!--rightMenu開始-->
+           <div class="right-menu-block" id="pc-menu-block">
+            <a href="javascript:void(0)" class="ham-burger-menu right-menu" id="pc-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+
+        <div class="right-menu-block" id="pc-menu-active-block">
+            <a href="javascript:void(0)" class="ham-burger-menu right-menu" id="pc-menu-active">
+                <div></div>
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+        <!--rightMenu結束-->
 
             <!--CRM內容 開始-->
             <div class="crm-main-block">
@@ -165,16 +187,18 @@
                     </div>
 
                     <div class="basic-info-page-btn-block">
-                        <a href="javascript:void(0)" class="btn active" id="info-btn">基本資料</a>
-                        <a href="javascript:void(0)" class="btn" id="join-client-btn">投資經驗及意向</a>
-                        <a href="javascript:void(0)" class="btn" id="join-client-btn">其他資訊</a>
-                        <a href="javascript:void(0)" class="btn" id="info-btn">拜訪紀錄</a>
-                        <a href="javascript:void(0)" class="btn" id="join-client-btn">參與活動</a>
-                        <a href="javascript:void(0)" class="btn" id="join-client-btn">委託請求</a>
-                        <a href="javascript:void(0)" class="btn" id="info-btn">物件列表</a>
-                        <a href="javascript:void(0)" class="btn" id="join-client-btn">訂單管理</a>
-                        <a href="javascript:void(0)" class="btn" id="join-client-btn">檔案總管</a>
-                        <a href="javascript:void(0)" class="btn" id="info-btn">異動紀錄</a>
+                        <div>
+                            <a href="javascript:void(0)" class="btn active" id="info-btn">基本資料</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">投資經驗及意向</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">其他資訊</a>
+                            <a href="javascript:void(0)" class="btn" id="info-btn">拜訪紀錄</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">參與活動</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">委託請求</a>
+                            <a href="javascript:void(0)" class="btn" id="info-btn">物件列表</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">訂單管理</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">檔案總管</a>
+                            <a href="javascript:void(0)" class="btn" id="info-btn">異動紀錄</a>
+                        </div>
                     </div>
 
                 </div>

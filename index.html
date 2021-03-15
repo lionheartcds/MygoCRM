@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css" class="css">
     <link rel="stylesheet" href="css/rwd-set.css" class="css">
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 </head>
 
 
@@ -19,6 +20,28 @@
 </script>
 <!--手機漢堡條 結束-->
 
+<!--PC漢堡條 開始-->
+<script>
+    $(document).ready(function () {
+        $("#pc-menu").click(function () {
+            $(".left-menu-block").animate({marginLeft:-250});
+            $("#pc-menu-block").hide();
+            $("#pc-menu-active-block").show();
+            $(".crm-main-block").addClass('active');
+            $("#pc-menu-active").addClass('active');
+        });
+
+        $("#pc-menu-active").click(function () {
+            $(".left-menu-block").animate({marginLeft:0});
+            $("#pc-menu-active-block").hide();
+            $("#pc-menu-block").show();
+            $(".crm-main-block").removeClass('active');
+            $("#pc-menu-active").removeClass('active');
+        });
+    });
+</script>
+<!--PC漢堡條 結束-->
+
 
 <body>
     <!--最外框 開始-->
@@ -30,7 +53,7 @@
             <!--header 開始-->
             <div class="header-bg">
                 <div class="header-block">
-                    <a class="logo" href="index.html">
+                    <a class="logo" href="client-organize-edit-client.html">
                         <img src="img/logo_header.svg" alt="">
                     </a>
 
@@ -125,8 +148,16 @@
             <!--側邊欄 結束-->
 
             <!--rightMenu開始-->
-            <div class="right-menu-block">
+            <div class="right-menu-block" id="pc-menu-block">
                 <a href="javascript:void(0)" class="ham-burger-menu right-menu" id="pc-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </a>
+            </div>
+
+            <div class="right-menu-block" id="pc-menu-active-block">
+                <a href="javascript:void(0)" class="ham-burger-menu right-menu" id="pc-menu-active">
                     <div></div>
                     <div></div>
                     <div></div>
@@ -157,6 +188,12 @@
 
                     <div class="basic-info-page-btn-block">
                         <div>
+                            <a href="javascript:void(0)" class="btn active" id="info-btn">基本資料</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">投資經驗及意向</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">其他資訊</a>
+                            <a href="javascript:void(0)" class="btn active" id="info-btn">基本資料</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">投資經驗及意向</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">其他資訊</a>
                             <a href="javascript:void(0)" class="btn active" id="info-btn">基本資料</a>
                             <a href="javascript:void(0)" class="btn" id="join-client-btn">投資經驗及意向</a>
                             <a href="javascript:void(0)" class="btn" id="join-client-btn">其他資訊</a>
@@ -461,5 +498,8 @@
     </div>
     <!--最外框 結束-->
 </body>
+
+
+
 
 </html>
