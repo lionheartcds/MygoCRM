@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <link rel="stylesheet" href="css/style.css" class="css">
+    <link rel="stylesheet" href="css/rwd-set.css" class="css">
+    <script src="js/jquery.min.js"></script>
+</head>
+
+
+<!--手機漢堡條 開始-->
+<script>
+    $(document).ready(function () {
+        $("#mobile-menu").click(function () {
+            $(".left-menu-block").slideToggle();
+        });
+    });
+</script>
+<!--手機漢堡條 結束-->
+
+
+<body>
+    <!--最外框 開始-->
+    <div class="outline">
+
+
+        <!--fixed開始-->
+        <div class="outline fixed">
+            <!--header 開始-->
+            <div class="header-bg">
+                <div class="header-block">
+                    <a class="logo" href="index.html">
+                        <img src="img/logo_header.svg" alt="">
+                    </a>
+
+                    <div class="function-block">
+                        <div class="function-crm-title">
+                            <span>CRM系統</span>
+                        </div>
+                        <div class="function-member-drop">
+                            <div class="name">Caroline</div>
+                            <div class="drop"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--header 結束-->
+
+            <!--漢堡條 開始-->
+            <div class="ham-burger-menu-block">
+
+                <a href="javascript:void(0)" class="ham-burger-menu" id="mobile-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </a>
+
+                <div class="function-member-drop hamburger">
+                    <div class="name">Caroline</div>
+                    <div class="drop"></div>
+                </div>
+            </div>
+            <!--漢堡條 結束-->
+        </div>
+        <!--fixed結束-->
+
+        <!--中間內容 開始-->
+        <div class="outline">
+            <div></div>
+            <!--側邊欄 開始-->
+            <div class="left-menu-block" id="left-menu">
+                <div class="left-menu-bg">
+                    <div class="left-menu-title">CRM 管理區</div>
+                    <div class="left-menu-main-out first">
+                        <a href="javascript:void(0)" class="left-menu-main-block" id="crew-menu">
+                            <div class="menu">組員</div>
+                            <div class="drop" id="crew-drop-icon"></div>
+                        </a>
+                        <div class="left-menu-drop-detail-block" id="crew-drop">
+                            <a href="javascript:void(0)">| 代辦事項清單</a>
+                            <a href="javascript:void(0)">| 案件管理</a>
+                            <a href="javascript:void(0)">| 外撥計畫</a>
+                            <a href="javascript:void(0)">| 客戶管理</a>
+                            <a href="javascript:void(0)">| 訂單管理</a>
+                            <a href="javascript:void(0)">| 行銷活動</a>
+                            <a href="javascript:void(0)">| 服務過程</a>
+                            <a href="javascript:void(0)">| 錄音列表</a>
+                            <a href="javascript:void(0)">| 名單管理</a>
+                            <a href="javascript:void(0)">| 物件管理</a>
+                            <a href="javascript:void(0)">| 黑名單</a>
+                        </div>
+                    </div>
+
+                    <div class="left-menu-main-out">
+                        <a href="javascript:void(0)" class="left-menu-main-block">
+                            <div class="menu">組長</div>
+                            <div class="drop"></div>
+                        </a>
+                    </div>
+
+                    <div class="left-menu-main-out">
+                        <a href="javascript:void(0)" class="left-menu-main-block">
+                            <div class="menu">團隊代表人</div>
+                            <div class="drop"></div>
+                        </a>
+                    </div>
+
+                    <div class="left-menu-main-out">
+                        <a href="javascript:void(0)" class="left-menu-main-block">
+                            <div class="menu">BD</div>
+                            <div class="drop"></div>
+                        </a>
+                    </div>
+
+                    <div class="left-menu-main-out">
+                        <a href="javascript:void(0)" class="left-menu-main-block">
+                            <div class="menu">管理者</div>
+                            <div class="drop"></div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <!--側邊欄 結束-->
+
+            <!--rightMenu開始-->
+            <div class="right-menu-block">
+                <a href="javascript:void(0)" class="ham-burger-menu right-menu" id="pc-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </a>
+            </div>
+            <!--rightMenu結束-->
+
+            <!--CRM內容 開始-->
+            <div class="crm-main-block">
+
+
+
+                <!--位置 開始-->
+                <div class="page-locattion-block">
+                    <a href="">首頁</a><span>&gt;</span>	
+                    <a href="">CRM</a><span>&gt;</span>
+                    <a href="">客戶管理</a><span>&gt;</span>	
+                    <a href="">新增客戶</a>
+                </div>
+                <!--位置 結束-->
+
+                <!--title 開始-->
+                <div class="main-title-block">
+
+                    <div class="title">
+                        客戶管理<span>．新增客戶</span>
+                    </div>
+
+                    <div class="basic-info-page-btn-block">
+                        <div>
+                            <a href="javascript:void(0)" class="btn active" id="info-btn">基本資料</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">投資經驗及意向</a>
+                            <a href="javascript:void(0)" class="btn" id="join-client-btn">其他資訊</a>
+                        </div>
+                    </div>
+
+                </div>
+                <!--title 結束-->
+
+                <!--內容 開始-->
+                <div class="crm-main-bg">
+                    <div class="basic-info-block">
+
+
+                        <!--基本資料 開始-->
+                        <div id="info">
+
+                            <!--資料輸入 開始-->
+                            <div class="basic-info-input-outblock">
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        <span>＊</span>客戶姓名
+                                    </div>
+                                    <input type="text" class="basic-info-input" placeholder="客戶名稱">
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        客戶星等
+                                    </div>
+                                    <span>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <li>★</li>
+                                        <span>0%</span>
+                                    </span>
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        <span>＊</span>性別
+                                    </div>
+                                        <span>
+                                            <div class="sexual">
+                                                <input class="basic-info-radio" type="radio" id="male" name="sexual" />
+                                                <span for="male">男性</span>
+                                            </div>
+                                            <div class="sexual">
+                                                <input class="basic-info-radio" type="radio" id="female" name="sexual" />
+                                                <span for="female">女性</span>
+                                            </div>
+                                            <div class="sexual">
+                                                <input class="basic-info-radio" type="radio" id="other" name="sexual" />
+                                                <span for="other">其它</span>
+                                            </div>
+                                        </span>    
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        標籤
+                                    </div>
+                                        <span>
+                                            <div>
+                                                <input class="basic-info-radio" type="checkbox" id="male" name="sign" />
+                                                <span for="male">出國</span>
+                                            </div>
+                                            <div>
+                                                <input class="basic-info-radio" type="checkbox" id="female" name="sign" />
+                                                <span for="female">投資</span>
+                                            </div>
+                                            <div>
+                                                <input class="basic-info-radio" type="checkbox" id="other" name="sign" />
+                                                <span for="other">移民</span>
+                                            </div>
+                                        </span>    
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        <span>＊</span>聯絡電話
+                                    </div>
+                                    <input type="text" class="basic-info-input" placeholder="請加國碼 區碼 電話號碼">
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        備用電話
+                                    </div>
+                                    <input type="text" class="basic-info-input" placeholder="請加國碼 區碼 電話號碼">
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        <span>＊</span>聯絡地址
+                                    </div>
+                                    <select name="" id="" class="basic-info-input adress">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+                                    <select name="" id="" class="basic-info-input adress">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+                                    <select name="" id="" class="basic-info-input adress">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+                                    <select name="" id="" class="basic-info-input adress">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+                                    <input type="text" class="basic-info-input adress-write" placeholder="街道">
+                                    <input type="text" class="basic-info-input adress-write" placeholder="街道(選填)">
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        電子郵件
+                                    </div>
+                                    <input type="text" class="basic-info-input" placeholder="請填寫Email">
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        生日
+                                    </div>
+                                    <input type="date" class="basic-info-input date">
+                                    <span class="tips">
+                                        <div>
+                                            <input class="basic-info-radio" type="checkbox" id="btdtips" name="sign" />
+                                            <span for="btdtips">生日提醒</span>
+                                        </div>
+                                    </span>
+                                </div>
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        年齡
+                                    </div>
+                                    <span class="tips-info">
+                                        <div>
+                                            <span>0 歲</span>
+                                        </div>
+                                    </span> 
+
+                                    <div class="basic-info-input-title another-tips">
+                                        手填年齡
+                                    </div>
+                                    <select name="" id="" class="basic-info-input age-range">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+                                    <span class="tips">
+                                        <div>
+                                            <span>歲</span>
+                                        </div>
+                                    </span> 
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        <span>＊</span>負責業務
+                                    </div>
+                                    <input type="text" class="basic-info-input">
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                    關聯好友
+                                    </div>
+                                    <input type="text" class="basic-info-input">
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                    客戶群組
+                                    </div>
+                                    <select name="" id="" class="basic-info-input select">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                    客戶編號
+                                    </div>
+                                    <input type="text" class="basic-info-input" placeholder="客戶編號(20碼英數字)">
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        <span>＊</span>客戶來源
+                                    </div>
+                                    <select name="" id="" class="basic-info-input adress">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+                                    <select name="" id="" class="basic-info-input adress">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                    LINE
+                                    </div>
+                                    <input type="text" class="basic-info-input" placeholder="LINE ID">
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        <span>＊</span>可聯絡時間
+                                    </div>
+                                    <input type="time" class="basic-info-input date">
+                                    <span class="tips">
+                                        <div style="margin:0;">
+                                            <span>至</span>
+                                        </div>
+                                    </span> 
+                                    <input type="time" class="basic-info-input date">
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                    Wechat
+                                    </div>
+                                    <input type="text" class="basic-info-input" placeholder="Wechat ID">
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                        <span>＊</span>處理狀態
+                                    </div>
+                                    <select name="" id="" class="basic-info-input select">
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                        <option value="">請選擇</option>
+                                    </select>
+
+                                </div>
+
+                                <div class="basic-info-input-block">
+                                    <div class="basic-info-input-title">
+                                    描述
+                                    </div>
+                                    <input type="text" class="basic-info-input" placeholder="簡短描述">
+                                </div>
+
+                                <div class="basic-info-input-block full send-btn">
+                                    <div class="basic-info-input-send-btn-block">
+                                        <button class="basic-info-input-send-btn comfirm">確認</button>
+                                        <button class="basic-info-input-send-btn cancel">取消</button>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!--資料輸入 結束-->
+                        </div>
+                        <!--基本資料 結束-->
+
+                        <!--參與客戶 開始-->
+                        <div id="join-client"></div>
+                        <!--參與客戶 結束-->
+
+                    </div>
+                </div>
+                <!--內容 結束-->
+            </div>
+            <!--CRM內容 結束-->
+
+
+        </div>
+        <!--中間內容 結束-->
+
+        <!--Footer 開始-->
+        <div class="footer">
+            MyGo 後台管理系統
+        </div>
+        <!--Footer 結束-->
+    </div>
+    <!--最外框 結束-->
+</body>
+
+</html>

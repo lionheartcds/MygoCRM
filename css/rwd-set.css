@@ -15,6 +15,10 @@
     .basic-info-input.date{
         width:25%;
     }
+
+    #mobile-menu{
+        display:none;
+    }
     
 }
 /*largest pro*/
@@ -24,6 +28,13 @@
 
 /*ipad pro*/
 @media screen and (min-width:1024px) and (max-width:1366px){
+    #pc-menu{
+        display:none;
+    }
+    #mobile-menu{
+        display:block;
+    }
+
     .header-block>.logo{
         margin-left:100px;
     }
@@ -101,6 +112,12 @@
 
 /*ipad*/
 @media screen and (min-width:768px) and (max-width:1023px){
+    #pc-menu{
+        display:none;
+    }
+    #mobile-menu{
+        display:block;
+    }
     .function-crm-title{
         float:right;
         margin-right:0px;
@@ -220,6 +237,12 @@
 
 /*大手機裝置*/
 @media screen and (min-width:540px) and (max-width:767px){
+    #pc-menu{
+        display:none;
+    }
+    #mobile-menu{
+        display:block;
+    }
     .function-crm-title{
         float:right;
         margin-right:0px;
@@ -267,11 +290,25 @@
         display:block;
     }
     .left-menu-block{
+        max-width:100%;
         display:none;
+        z-index:1;
+        margin-top:73px;
+    }
+    .left-menu-block.active{
+        position:fixed;
+        display:block;
+        max-width:100%;
+        z-index:1;
+    }
+    .left-menu-bg{
+        width:100%;
+        box-shadow:none;
+        height:100vh;
     }
     .crm-main-block{
         max-width:100%;
-        margin-top:110px;
+        margin-top:130px;
     }
     .crm-main-bg{
         width:calc(100% - 40px);
@@ -425,6 +462,12 @@
 
 /*iphone plus*/
 @media screen and (min-width:414px) and (max-width:539px){
+    #pc-menu{
+        display:none;
+    }
+    #mobile-menu{
+        display:block;
+    }
     .function-crm-title{
         float:right;
         margin-right:0px;
@@ -436,17 +479,21 @@
         display:block;
     }
     .left-menu-block{
-        position: absolute;
+        max-width:100%;
         display:none;
-        margin-top:-5000px;
-        top:183px;
+        z-index:1;
+        margin-top:73px;
     }
     .left-menu-block.active{
         position:fixed;
         display:block;
-        margin-top:0px;
         max-width:100%;
         z-index:1;
+    }
+    .left-menu-bg{
+        width:100%;
+        box-shadow:none;
+        height:100vh;
     }
     .left-menu-bg{
         width:100%;
@@ -462,23 +509,24 @@
         padding:0 0;
     }
     .header-block>.logo{
-        width:150px;
+        width:25%;
         height:auto;
         margin:9.5px auto 9.5px auto;
-        display:block;
-        float:none;
+        float:left;
     }
     .function-block{
-        width:100%;
-        float: left;
+        width:auto;
+        float:right;
     }
     .function-crm-title{
         width:auto;
-        min-width:125px;
+        min-width:165px;
         height:auto;
         font-size:17px;
-        padding:7px 30px;
-        line-height:35px;
+        padding:7px 10px;
+        line-height:40px;
+        float:right;
+        text-align: right;
     }
     .function-crm-title>img {
         margin-top:7px;
@@ -498,7 +546,8 @@
     }
     .crm-main-block{
         max-width:100%;
-        margin-top:90px;}
+        margin-top:30px;
+    }
     .crm-main-bg{
         width:calc(100% - 20px);
         padding:38px 10px;
@@ -693,6 +742,12 @@
 
 /*iphone*/
 @media screen and (min-width:375px) and (max-width:413px){
+    #pc-menu{
+        display:none;
+    }
+    #mobile-menu{
+        display:block;
+    }
     .function-crm-title{
         float:right;
         margin-right:0px;
@@ -704,22 +759,24 @@
         display:block;
     }
     .left-menu-block{
-        position: absolute;
+        max-width:100%;
         display:none;
-        margin-top:-5000px;
-        top:183px;
+        z-index:1;
+        margin-top:73px;
     }
     .left-menu-block.active{
         position:fixed;
         display:block;
-        margin-top:0px;
         max-width:100%;
         z-index:1;
     }
     .left-menu-bg{
         width:100%;
         box-shadow:none;
-        height:calc(100vh - 155px);
+        height:100vh;
+    }
+    .header-bg{
+        height:auto;
     }
     .header-bg{
         height:auto;
@@ -730,23 +787,24 @@
         padding:0 0;
     }
     .header-block>.logo{
-        width:150px;
+        width:25%;
         height:auto;
         margin:9.5px auto 9.5px auto;
-        display:block;
-        float:none;
+        float:left;
     }
     .function-block{
-        width:100%;
-        float: left;
+        width:auto;
+        float:right;
     }
     .function-crm-title{
         width:auto;
-        min-width:125px;
+        min-width:165px;
         height:auto;
         font-size:17px;
-        padding:7px 30px;
-        line-height:35px;
+        padding:7px 10px;
+        line-height:40px;
+        float:right;
+        text-align: right;
     }
     .function-crm-title>img {
         margin-top:7px;
@@ -767,7 +825,7 @@
     }
     .crm-main-block{
         max-width:100%;
-        margin-top:75px;
+        margin-top:30px;
     }
     .crm-main-bg{
         width:calc(100% - 20px);
@@ -984,6 +1042,12 @@
 
 /*iphone small*/
 @media screen and (max-width:374px){
+    #pc-menu{
+        display:none;
+    }
+    #mobile-menu{
+        display:block;
+    }
     .function-crm-title{
         float:right;
         margin-right:0px;
@@ -995,22 +1059,24 @@
         display:block;
     }
     .left-menu-block{
-        position: absolute;
+        max-width:100%;
         display:none;
-        margin-top:-5000px;
-        top:183px;
+        z-index:1;
+        margin-top:73px;
     }
     .left-menu-block.active{
         position:fixed;
         display:block;
-        margin-top:0px;
         max-width:100%;
         z-index:1;
     }
     .left-menu-bg{
         width:100%;
         box-shadow:none;
-        height:calc(100vh - 155px);
+        height:100vh;
+    }
+    .header-bg{
+        height:auto;
     }
     .header-bg{
         height:auto;
@@ -1021,22 +1087,24 @@
         padding:0 0;
     }
     .header-block>.logo{
-        width:150px;
+        width:33%;
         height:auto;
         margin:9.5px auto 9.5px auto;
-        display:block;
-        float:none;
+        float:left;
     }
     .function-block{
-        width:100%;
-        float: left;
+        width:auto;
+        float:right;
     }
     .function-crm-title{
         width:auto;
+        min-width:165px;
         height:auto;
-        font-size:20px;
-        padding:7px 30px;
-        line-height:35px;
+        font-size:17px;
+        padding:7px 10px;
+        line-height:40px;
+        float:right;
+        text-align: right;
     }
     .function-crm-title>img {
         margin-top:6px;
@@ -1056,7 +1124,7 @@
     }
     .crm-main-block{
         max-width:100%;
-        margin-top:160px;
+        margin-top:30px;
     }
     .crm-main-bg{
         width:calc(100% - 20px);
